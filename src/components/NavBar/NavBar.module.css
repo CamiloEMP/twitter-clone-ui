@@ -1,0 +1,56 @@
+.nav {
+  margin-left: 30px;
+}
+
+.twitterIcon {
+  padding: 12px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.tweet {
+  width: 220px;
+  cursor: pointer;
+  padding: 15px 35px;
+  border-radius: 45px;
+  font-weight: 700;
+  background-color: rgba(29, 155, 240, 1);
+  border: none;
+  color: #fff;
+  transition: background-color 200ms ease-in-out;
+}
+
+.tweet:hover {
+  background-color: rgba(29, 155, 240, .85);
+}
+
+.tweetText {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+}
+
+.tweetIcon {
+  display: none;
+  width: 25px;
+}
+
+@media (max-width: 1300px) {
+  .tweetIcon {
+    display: block;
+  }
+
+  .tweetText {
+    display: none;
+  }
+
+  .tweet {
+    width: auto;
+    padding: 15px;
+    border-radius: 50%;
+  }
+}
