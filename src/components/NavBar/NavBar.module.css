@@ -1,4 +1,7 @@
 .nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
   margin-left: 30px;
 }
 
@@ -39,7 +42,13 @@
   width: 25px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
+  .nav {
+    margin-left: 15px;
+    align-items: flex-end;
+    padding-right: 8px;
+  }
+
   .tweetIcon {
     display: block;
   }
@@ -49,7 +58,7 @@
   }
 
   .tweet {
-    width: auto;
+    width: min-content;
     padding: 15px;
     border-radius: 50%;
   }

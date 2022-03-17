@@ -1,13 +1,14 @@
+import { MainContent } from './components/MainContent'
 import { NavBar } from './components/NavBar'
-import styles from './Home.module.css'
+import { Layout } from './container/Layout'
 
 function App() {
   return (
-    <main className={styles.main}>
+    <Layout>
       <NavBar />
-      <section />
+      <MainContent />
       <aside />
-    </main>
+    </Layout>
   )
 }
 
