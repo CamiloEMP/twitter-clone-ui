@@ -3,11 +3,11 @@ import { useState } from 'react/cjs/react.development'
 import * as Icon from '../Icons/TweetIcons'
 
 import style from './index.module.css'
-export const Tweet = () => {
+export const CreateTweet = () => {
   const [tweetActivate, setTweetActivate] = useState(false)
 
   return (
-    <section>
+    <section className={style.containerTweet}>
       <div className={style.tweetContainer}>
         <div>
           <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" />

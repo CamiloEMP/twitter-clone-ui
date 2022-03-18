@@ -1,3 +1,8 @@
+.containerTweet {
+  border-bottom: 1px solid #2f3336;
+  padding-bottom: 8px;
+}
+
 .wrapper {
   position: relative;
 }

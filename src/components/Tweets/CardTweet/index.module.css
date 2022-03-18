@@ -1,0 +1,94 @@
+.CardTweet {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #2f3336;
+  transition: background-color 150ms ease-in;
+}
+
+.CardTweet:hover {
+  background-color: rgba(5, 5, 5, 1);
+  transition: background-color 150ms ease-out;
+}
+
+.CardTweet div img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.CardTweet .tweetContent>div:first-child {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 4px;
+}
+
+.CardTweet .tweetContent>div:first-child span:nth-child(1) {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.CardTweet .tweetContent>div:first-child span:nth-child(2),
+.CardTweet .tweetContent>div:first-child span:nth-child(3),
+.CardTweet .tweetContent>div:first-child span:nth-child(4) {
+  color: #696969;
+  font-size: 15px;
+}
+
+.contentTweet {
+  white-space: pre-wrap;
+}
+
+.CardTweet .icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 380px;
+  color: #696969;
+}
+
+.CardTweet .icons div {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  gap: 4px;
+}
+
+.CardTweet .icons div span {
+  font-size: 14px;
+}
+
+.CardTweet .icons div svg {
+  padding: 9px;
+  border-radius: 50%;
+  fill: #696969;
+  width: 38px;
+}
+
+.CardTweet .icons .active:nth-child(1):hover svg,
+.CardTweet .icons .active:nth-child(4):hover svg {
+  background-color: rgba(29, 155, 240, 0.1);
+  fill: rgba(29, 155, 240, 1);
+}
+
+.CardTweet .icons .active:nth-child(1):hover span {
+  color: rgba(29, 155, 240, 1);
+}
+
+.CardTweet .icons .active:nth-child(2):hover svg {
+  background-color: rgba(0, 186, 124, 0.1);
+  fill: rgba(0, 186, 124, 1);
+}
+
+.CardTweet .icons .active:nth-child(2):hover span {
+  color: rgba(0, 186, 124, 1);
+}
+
+.CardTweet .icons .active:nth-child(3):hover svg {
+  background-color: rgba(249, 24, 128, 0.1);
+  fill: rgba(249, 24, 128, 1);
+}
+
+.CardTweet .icons .active:nth-child(3):hover span {
+  color: rgba(249, 24, 128, 1);
+}

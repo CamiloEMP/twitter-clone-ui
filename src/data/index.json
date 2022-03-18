@@ -1,0 +1,32 @@
+[
+  {
+    "img": "https://pbs.twimg.com/profile_images/1083714591752941568/Q7LnIANs_400x400.jpg",
+    "content": "¿Sabes que puedes cambiar el valor de una Custom Property de CSS desde los estilos en línea de una etiqueta HTML?😮 \n\nEn lugar de usar propiedades puedes hacer esta técnica para crear componentes visuales reusables muy fácilmente.\n\nSe usaría así ⬇️",
+    "author": "Miguel Ángel Durán",
+    "username": "@midudev",
+    "hour": "13h",
+    "likes": "465",
+    "retweet": "88",
+    "comments": "11"
+  },
+  {
+    "img": "https://pbs.twimg.com/profile_images/1485735728139100165/EaZ6h5xW_400x400.jpg",
+    "content": "Empezó la transmisión en https://twitch.tv/goncypozzo 🙌",
+    "author": "goncy.tsx",
+    "username": "@goncy",
+    "hour": "15h",
+    "likes": "105",
+    "retweet": "45",
+    "comments": "20"
+  },
+  {
+    "img": "https://pbs.twimg.com/profile_images/1497701062991437824/evabz349_400x400.jpg",
+    "content": "Yo soy de los que le baja el volumen a la radio del auto para ver mejor cuando me estaciono. ☝🏻",
+    "author": "Nicolás Schürmann",
+    "username": "@_nasch_",
+    "hour": "4h",
+    "likes": "284",
+    "retweet": "12",
+    "comments": "27"
+  }
+]
