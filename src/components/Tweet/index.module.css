@@ -1,0 +1,84 @@
+.wrapper {
+  position: relative;
+}
+
+.tweetContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 20px;
+}
+
+.tweetContainer div:first-child {
+  display: flex;
+  align-self: flex-start;
+}
+
+.tweetContainer div img {
+  border-radius: 50%;
+  margin-bottom: 38px;
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.wrapper textarea {
+  width: 95%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 20px;
+  background-color: inherit;
+}
+
+.wrapper .bottomLine {
+  border-bottom: 1px solid #2f3336;
+  width: 95%;
+}
+
+.tweetPeople {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  font-family: inherit;
+  font-weight: 700;
+  color: #1d9bf0;
+}
+
+.actionsTweet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 75px;
+  padding-right: 45px;
+}
+
+.actionsTweet div:first-child {
+  display: flex;
+  gap: 15px;
+}
+
+.actionsTweet button {
+  color: #fff;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #1d9bf0;
+  border: none;
+  border-radius: 22px;
+  opacity: 0.5;
+}
+
+.tweetActivate {
+  opacity: 1;
+}
+
+/*aplicar hover al button*/
