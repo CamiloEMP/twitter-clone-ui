@@ -1,5 +1,6 @@
 import { MainContent } from './components/MainContent'
 import { NavBar } from './components/NavBar'
+import { Notices } from './components/Notices'
 import { Layout } from './container/Layout'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <Layout>
       <NavBar />
       <MainContent />
-      <aside />
+      <Notices />
     </Layout>
   )
 }

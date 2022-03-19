@@ -1,0 +1,37 @@
+.InputContainer {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  height: 50px;
+  border-radius: 36px;
+  background-color: #1f2020;
+  padding: 0 20px;
+}
+
+.InputContainer svg {
+  width: 20px;
+  fill: #919191;
+}
+
+.InputContainer input {
+  background-color: inherit;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-family: inherit;
+  color: #fff;
+}
+
+.InputContainer input::placeholder {
+  color: #919191;
+}
+
+.InputContainer.active {
+  border: 1px solid #1d9bf0;
+  background-color: inherit;
+}
+
+.InputContainer .iconActive {
+  fill: #1d9bf0;
+}

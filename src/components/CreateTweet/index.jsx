@@ -29,7 +29,7 @@ export const CreateTweet = () => {
         </div>
       </div>
       <div className={style.actionsTweet}>
-        <div>
+        <div className={style.icons}>
           <Icon.Image />
           <Icon.Gif />
           <Icon.Poll />
