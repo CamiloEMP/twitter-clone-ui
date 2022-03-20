@@ -65,6 +65,14 @@
   width: 38px;
 }
 
+.CardTweet .icons .active>* {
+  transition: background-color 150ms ease-in;
+}
+
+.CardTweet .icons .active:hover>* {
+  transition: background-color 200ms ease-out;
+}
+
 .CardTweet .icons .active:nth-child(1):hover svg,
 .CardTweet .icons .active:nth-child(4):hover svg {
   background-color: rgba(29, 155, 240, 0.1);

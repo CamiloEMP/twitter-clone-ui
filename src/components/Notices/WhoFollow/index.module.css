@@ -1,0 +1,48 @@
+.WhoFollow a div img {
+  width: 55px;
+  border-radius: 50%;
+}
+
+.WhoFollow a {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.WhoFollow .information {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-left: 12px;
+}
+
+.WhoFollow .information span:nth-child(1) {
+  color: #fff;
+  display: flex;
+  gap: 3px;
+}
+
+.WhoFollow .information span:nth-child(2) {
+  color: #696969;
+  font-size: 14px;
+}
+
+.WhoFollow .followBtn button {
+  width: 80px;
+  padding: 8px 15px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity 150ms ease-in;
+}
+
+.WhoFollow .followBtn button:hover {
+  opacity: .9;
+  transition: opacity 150ms ease-out;
+}
+
+.WhoFollow .information .Verified {
+  width: 20px;
+  fill: currentColor;
+}

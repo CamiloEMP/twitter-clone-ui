@@ -4,3 +4,9 @@
   row-gap: 15px;
   margin-top: 10px;
 }
+
+@media (max-width: 1000px) {
+  .containerNotices {
+    display: none;
+  }
+}

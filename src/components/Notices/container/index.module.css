@@ -1,0 +1,36 @@
+.container {
+  width: 340px;
+  border-radius: 10px;
+  background-color: #16181c;
+  padding: 10px 0px 0px;
+}
+
+.container div h3 {
+  margin: 0;
+  font-size: 19px;
+  padding: 0 15px;
+  margin-bottom: 5px;
+}
+
+.container div a.WhatsHappening {
+  justify-content: space-between;
+}
+
+.container div a {
+  display: flex;
+  padding: 20px 15px;
+  transition: background-color 100ms ease-in;
+}
+
+.container a:hover {
+  background-color: rgba(126, 126, 126, 0.1);
+  transition: background-color 100ms ease-out;
+}
+
+.container .showMore {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: #1d9bf0;
+  padding-left: 15px;
+}
