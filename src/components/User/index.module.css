@@ -1,0 +1,119 @@
+.absolute {
+  position: relative;
+}
+
+.absolute img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.absolute p {
+  margin: 0;
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 45px;
+  transition: background-color 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.User:hover {
+  background-color: rgba(231, 232, 233, 0.1);
+}
+
+.User>div {
+  display: flex;
+  align-items: center;
+}
+
+.User>div p:nth-child(2) {
+  color: #888888;
+}
+
+.User div svg {
+  width: 20px;
+}
+
+.MoreInfo {
+  position: absolute;
+  top: -210px;
+  left: -15px;
+  width: 300px;
+  background-color: black;
+  box-shadow: 0px 0px 8px rgba(236, 235, 235, 0.5);
+  border-radius: 15px;
+}
+
+.MoreInfo>div:first-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #69696973;
+}
+
+.UserInfo {
+  display: flex;
+}
+
+.UserInfo div {
+  margin-top: 5px;
+}
+
+.MoreInfo>div svg {
+  width: 20px;
+}
+
+.UserInfo>div p:nth-child(2) {
+  color: #888888;
+}
+
+.UserState {
+
+  margin-bottom: 8px;
+}
+
+.UserState p {
+  padding: 20px 15px;
+  width: 100%;
+  transition: background-color 100ms ease-in-out;
+  cursor: pointer;
+}
+
+.UserState p:hover {
+  background-color: rgba(231, 232, 233, 0.1);
+}
+
+.arrowDown {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  fill: #000;
+  left: calc(50% - 8px);
+  border-top: 10px solid #000;
+  position: absolute;
+}
+
+@media (max-width: 1000px) {
+
+  .User {
+    margin-left: 85px;
+    width: fit-content;
+  }
+
+  .User div div {
+    display: none;
+  }
+
+  .User div svg {
+    display: none;
+  }
+}
