@@ -1,0 +1,9 @@
+.Tweet {
+  padding: 10px;
+  transition: background-color 150ms ease-in;
+}
+
+.Tweet:hover {
+  background-color: rgba(8, 8, 8, 1);
+  transition: background-color 150ms ease-out;
+}

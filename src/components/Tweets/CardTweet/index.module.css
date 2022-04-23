@@ -1,37 +1,29 @@
-.CardTweet {
+.CardTweet section {
+  text-decoration: none;
   display: flex;
   gap: 10px;
-  padding: 10px;
   color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #2f3336;
-  transition: background-color 150ms ease-in;
 }
 
-.CardTweet:hover {
-  background-color: rgba(5, 5, 5, 1);
-  transition: background-color 150ms ease-out;
-}
-
-.CardTweet div img {
+.CardTweet section div img {
   width: 50px;
   border-radius: 50%;
 }
 
-.CardTweet .tweetContent>div:first-child {
+.CardTweet section .tweetContent>div:first-child {
   display: flex;
   align-items: flex-end;
   column-gap: 4px;
 }
 
-.CardTweet .tweetContent>div:first-child span:nth-child(1) {
+.CardTweet section .tweetContent>div:first-child span:nth-child(1) {
   font-weight: 600;
   font-size: 16px;
 }
 
-.CardTweet .tweetContent>div:first-child span:nth-child(2),
-.CardTweet .tweetContent>div:first-child span:nth-child(3),
-.CardTweet .tweetContent>div:first-child span:nth-child(4) {
+.CardTweet section .tweetContent>div:first-child span:nth-child(2),
+.CardTweet section .tweetContent>div:first-child span:nth-child(3),
+.CardTweet section .tweetContent>div:first-child span:nth-child(4) {
   color: #696969;
   font-size: 15px;
 }
@@ -40,14 +32,14 @@
   white-space: pre-wrap;
 }
 
-.CardTweet .icons {
+.CardTweet section .icons {
   display: flex;
   justify-content: space-between;
   max-width: 380px;
   color: #696969;
 }
 
-.CardTweet .icons div {
+.CardTweet section .icons div {
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -99,4 +91,10 @@
 
 .CardTweet .icons .active:nth-child(3):hover span {
   color: rgba(249, 24, 128, 1);
+}
+
+.CardTweet .contentImage img {
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
 }
